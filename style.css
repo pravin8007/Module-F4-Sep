@@ -1,0 +1,60 @@
+body{
+    background-color:rgba(26, 26, 28, 1);;
+    color: white;
+}
+
+.container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#header{
+    height: 50px;
+    border: 1px solid white;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+td:first-child {
+    border-right: none;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+input[type="text"] {
+    width: 55vw;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    outline: none;
+    background-color:rgba(26, 26, 28, 1);
+    color: white;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"]::placeholder {
+    color: white;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    background-color:rgba(26, 26, 28, 1);;
+    color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-right: 10px; 
+}
